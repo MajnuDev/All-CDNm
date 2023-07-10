@@ -1,0 +1,84 @@
+  /* Define the click effect styles */
+img {
+  transform: scale(0.9); /* Scale down the image on click */
+  transition: transform 0.2s ease-in-out; /* Add a smooth transition */
+}
+
+/* Define the active state of the image */
+img:active {
+  transform: scale(1); /* Restore the original size on click */
+}
+
+      textarea {
+  width: 100%;
+  height: 250px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+.enter-container {
+    display: flex;
+    justify-content: center;
+  }
+.enter {
+  height: 45px;
+  width: 100px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.5s;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-bottom: 3em;
+}
+
+.enter:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+#popup {
+            position: fixed;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            display: none;
+        }
+      img{
+        margin: 20px;
+        height: 7vh;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+        body{
+            margin: 0px 20px 0px 20px;
+            background: #ffffff;
+        }
+        #Navbar{
+            display: flex;
+            flex-direction: column;
+            /* align-items: start;
+            justify-content: space-between; */
+             /* float: right; */
+        }
+        #login-box {
+        
+ /* transform: translate(-50%, -50%); */
+ background: rgba(255, 255, 255, 0.987);
+ box-sizing: border-box;
+ /* box-shadow: 0 15px 25px rgba(0,0,0,.6); */
+ border-radius: 10px;
+}
+
+h1{
+  color: #fff;
+}
